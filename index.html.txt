@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EcoBot Porto Farias</title>
+    <style>
+        body { font-family: Arial; text-align: center; padding: 20px; }
+        .bot-frame { 
+            width: 350px; 
+            height: 500px; 
+            margin: auto; 
+            border: 2px solid #007bff; 
+            border-radius: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Converse com o EcoBot! 🤖</h1>
+    <div class="bot-frame">
+        <!-- Substitua o link abaixo pelo seu chatbot (ou deixe como está para testes) -->
+       <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/fc58db0f-f77d-4020-93c4-bd699588a5e4"></iframe>
+    </div>
+    <p>Ou escaneie o QR code para usar no Telegram:</p>
+    <!-- Adicione uma imagem chamada "qrcode.png" na mesma pasta -->
+    <img src="qrcode.png" width="150px">
+</body>
+</html>
